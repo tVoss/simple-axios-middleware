@@ -1,0 +1,36 @@
+{
+  "name": "axios-middleware",
+  "version": "1.0.0",
+  "description": "Axios middleware for Redux",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tVoss/axios-middleware.git"
+  },
+  "keywords": [
+    "axios",
+    "middleware",
+    "react",
+    "redux"
+  ],
+  "author": "Tyler Voss <tVoss42@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tVoss/axios-middleware/issues"
+  },
+  "homepage": "https://github.com/tVoss/axios-middleware#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "jest": "^23.5.0",
+    "redux": "^4.0.0",
+    "ts-jest": "^23.1.4",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
