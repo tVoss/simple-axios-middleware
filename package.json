@@ -1,8 +1,9 @@
 {
-  "name": "axios-middleware",
-  "version": "1.0.0",
+  "name": "simple-axios-middleware",
+  "version": "1.0.1",
   "description": "Axios middleware for Redux",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
