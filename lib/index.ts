@@ -17,6 +17,8 @@ export interface AxiosFailedAction extends Action {
     err: AxiosError
 }
 
+export type AxiosActionCreator = (...params: any[]) => AxiosSentAction
+
 export interface AxiosActionSuffixes {
     Sent: string
     Complete: string

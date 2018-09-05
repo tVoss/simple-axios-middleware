@@ -1,8 +1,8 @@
 {
   "name": "simple-axios-middleware",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Axios middleware for Redux",
-  "main": "./dist/index.js",
+  "main": "./dist/lib/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
